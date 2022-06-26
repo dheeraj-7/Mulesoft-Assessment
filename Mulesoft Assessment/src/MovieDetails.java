@@ -21,6 +21,8 @@ public class MovieDetails {
 			st.executeUpdate("INSERT INTO movieData (movieName,actor,actress,relesae,director) VALUES ('bahubali','prabhas','tamanna','2015','rajamouli')");
 			st.executeUpdate("INSERT INTO movieData (movieName,actor,actress,relesae,director) VALUES ('magadheera','ram charan','kajal','2009','rajamouli')");
 			st.executeUpdate("INSERT INTO movieData (movieName,actor,actress,relesae,director) VALUES ('jersey','nani','shraddha','2019','gowtam')");
+			st.executeUpdate("INSERT INTO movieData (movieName,actor,actress,relesae,director) VALUES ('titanic','leonardo','kate','1997','james cameron')");
+
 			
 			
 			ResultSet rs = st.executeQuery("select * from movieData");
